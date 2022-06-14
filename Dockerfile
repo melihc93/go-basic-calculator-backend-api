@@ -5,6 +5,7 @@ WORKDIR /tmp/app
 COPY . .
 
 RUN go mod download
+RUN go mod tidy
 RUN go build -o ./out .
 
 FROM alpine:3.9

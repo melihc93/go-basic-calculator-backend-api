@@ -8,3 +8,10 @@ In order to use external libraries, first add them to import function, then use
 
 ``` go mod tidy ```
 
+After download use 
+
+``` go mod  vendor ```
+and
+``` go mod download ```
+
+in order to get neccessary packages
